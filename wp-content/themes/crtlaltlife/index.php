@@ -6,11 +6,23 @@ if (is_page('home')) {
 	$loop = new WP_Query($args);
 
 	while ($loop->have_posts()) : $loop->the_post();
-		echo "<p>" . get_the_title() ."</p>";
+		echo "<p>" . get_the_title() ."</p>"; 
 	endwhile;
 	wp_reset_postdata();
 }
+
+if (is_page('list')) {
+	$args = ["post_type" => "video_games"];
+
+	$loop = new WP_Query($args);
+
+	while ($loop->have_posts()) : $loop->the_post();
+		include("templates/components/video-game-card.php");
+	endwhile;
+	wp_reset_postdata();
+}
+
+
 ?>
 <?php get_footer(); ?>
 <!-- Test -->
-<h1>Hello</h2>
