@@ -22,7 +22,9 @@ if (is_page('list')) {
 	wp_reset_postdata();
 }
 
-
+if(is_singular('video_games')){
+	echo "<p>This is the detail page for " . get_the_title()  . "</p>";
+}
 ?>
 <?php get_footer(); ?>
 <!-- Test -->
