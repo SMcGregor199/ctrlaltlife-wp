@@ -2,6 +2,7 @@
 <section>
 	<inner-column>
 <?php 
+	
 
 	$args = ["post_type" => "video_games"];
 
