@@ -10,10 +10,12 @@
 	</head>
 
 	<body <?php body_class(); ?> >
-		<header>
+		<header class="site-header">
+			<inner-column>
 			<?php
 			include("templates/components/site-menu.php");
 			?>
+		</inner-column>
 		</header>
 
 		<main class="page-content">
