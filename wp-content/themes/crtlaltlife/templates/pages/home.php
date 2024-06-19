@@ -1,5 +1,5 @@
 
-<section>
+<section class="page-section">
 	<inner-column>
 <?php 
 	

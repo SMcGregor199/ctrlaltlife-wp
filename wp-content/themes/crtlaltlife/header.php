@@ -16,4 +16,4 @@
 			?>
 		</header>
 
-		<main>
+		<main class="page-content">
