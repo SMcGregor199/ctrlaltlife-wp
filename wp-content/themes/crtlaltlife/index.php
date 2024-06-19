@@ -12,6 +12,10 @@ if (is_page('list')) {
 if(is_singular('video_games')){
 	echo "<p>This is the detail page for " . get_the_title()  . "</p>";
 }
+
+if(is_404()){
+	include("templates/pages/page-not-found.php");
+}
 ?>
 <?php get_footer(); ?>
 
