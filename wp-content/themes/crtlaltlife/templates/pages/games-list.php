@@ -3,7 +3,8 @@ $args = ["post_type" => "video_games"];
 
 	$loop = new WP_Query($args);
 
-	while ($loop->have_posts()) : $loop->the_post();
+	while ($loop->have_posts()) : 
+		$loop->the_post();
 		include(get_template_directory()."/templates/components/video-game-card.php");
 	endwhile;
 	wp_reset_postdata();
