@@ -21,4 +21,14 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @import "css/video-game-card.css";
 body {
 	background: var(--lofi-pink);
+	min-height:100vh;
+}
+
+.site-header {
+	min-height:10vh;
+	background-color:black;
+}
+.site-header .content {
+	padding:1em;
+	color:white;
 }

@@ -27,3 +27,9 @@ svg {
   width: 100%;
   /* may need height: 100%; Check all browsers */
 }
+inner-column {
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	height:100%;
+}

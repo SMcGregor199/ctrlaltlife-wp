@@ -12,10 +12,14 @@
 	<body <?php body_class(); ?> >
 		<header class="site-header">
 			<inner-column>
-			<?php
-			include("templates/components/site-menu.php");
-			?>
-		</inner-column>
+<!-- 				<?php
+				include("templates/components/site-menu.php");
+				?> -->
+			
+				<div class="content">
+					<h1>The IT <br>Blog</h1>
+				</div>
+			</inner-column>
 		</header>
 
 		<main class="page-content">

@@ -6,7 +6,6 @@ include("templates/pages/home.php");
 
 if (is_page('list')) {
 	include("templates/pages/games-list.php");
-	
 }
 
 if(is_singular('video_games')){
