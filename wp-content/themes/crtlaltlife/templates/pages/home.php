@@ -1,6 +1,6 @@
 
 <section class="page-section">
-	<inner-column>
+	
 <?php 
 	
 
@@ -13,5 +13,5 @@
 	endwhile;
 	wp_reset_postdata();
 ?>
-	</inner-column>
+	
 </section>

@@ -20,15 +20,38 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @import "typography.css";
 @import "css/video-game-card.css";
 body {
-	background: var(--lofi-pink);
+	background: var(--paper);
 	min-height:100vh;
 }
 
+
+.page-content {
+	margin:0 6em;
+	background:white;
+}
+
 .site-header {
-	min-height:10vh;
 	background-color:black;
+	margin:0 6em;
 }
 .site-header .content {
 	padding:1em;
 	color:white;
+	font-size:3em;
+	text-align:center;
+}
+.site-footer {
+		margin:0 6em;
+}
+
+@media(max-width:768px){
+	.site-header{
+		margin:0 2em;
+	}
+	.page-content{
+		margin:0 2em;
+	}
+	.site-footer{
+		margin: 0 2em;
+	}
 }

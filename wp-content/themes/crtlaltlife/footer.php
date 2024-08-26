@@ -1,10 +1,10 @@
 	</main>
 
 
-		<footer>
-		<inner-column class="site-footer">
-			<h1>This is the Footer</h1>
-		</inner-column>
+		<footer class="site-footer">
+			<div>
+				<h1>This is the Footer</h1>
+			</div>
 		</footer>
 
 		<?php wp_footer(); ?>
