@@ -20,7 +20,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 @import "typography.css";
 @import "css/video-game-card.css";
 body {
-	background: red;
+	background: blue;
 	min-height:100vh;
 }
 
