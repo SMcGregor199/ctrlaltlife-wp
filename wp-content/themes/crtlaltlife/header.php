@@ -17,7 +17,7 @@
 				?> -->
 			
 				<div class="content">
-					<h1>The IT Blog:Testing:Testing v2</h1>
+					<h1>The IT Blog:____</h1>
 				</div>
 	
 		</header>
