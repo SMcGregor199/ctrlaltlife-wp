@@ -2,9 +2,11 @@
 /**
  * Enqueue front-end styles.
  */
+$theme = wp_get_theme();
+define('THEME_VERSION',$theme->Version);
 function my_theme_styles() {
 
-  wp_enqueue_style( 'style', get_stylesheet_uri() );
+  wp_enqueue_style( 'style', get_stylesheet_uri(), [], THEME_VERSION);
 
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_styles' );
