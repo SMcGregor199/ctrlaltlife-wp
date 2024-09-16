@@ -17,7 +17,7 @@
 				?> -->
 			
 				<div class="content">
-					<h1>The IT Blog:Did the webhook work?</h1>
+					<h1>The IT Blog:Removed the imposter WP content</h1>
 				</div>
 	
 		</header>
