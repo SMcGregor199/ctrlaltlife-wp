@@ -17,7 +17,7 @@
 				?> -->
 			
 				<div class="content">
-					<h1>The IT Blog:____*_*_*_</h1>
+					<h1>The IT Blog:Did the webhook work?</h1>
 				</div>
 	
 		</header>
