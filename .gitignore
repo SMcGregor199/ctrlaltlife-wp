@@ -21,7 +21,7 @@
 
 # optionally include plugins too - if you want
 # !/wp-content/plugins
-
+!/wp-content/uploads
 !/wp-content/themes
 /wp-content/themes/*
 
